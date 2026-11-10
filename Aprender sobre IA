@@ -1,0 +1,9 @@
+# Un programa simple de toma de decisiones
+print("¡Hola! Bienvenido a IA-shylo, ¿Que quieres hacer?")
+
+respuesta = input("¿Quieres aprender sobre IA hoy? (si/no): ")
+
+if respuesta.lower() == "si":
+    print("¡Claro! ¿Con que quieres empezar?.")
+else:
+    print("No hay problema, igual podemos aprender en otro momento")
